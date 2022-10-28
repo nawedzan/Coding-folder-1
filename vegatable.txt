@@ -1,0 +1,9 @@
+this is a shopping lsit of vegatables
+
+potato
+cauliflower
+pumpkin
+cabbage
+tomato
+lady finger
+drumstick
