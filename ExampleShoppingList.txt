@@ -1,0 +1,9 @@
+shopping list:
+
+apple
+banana
+mango
+cherries
+guava
+orange
+pineapple
