@@ -8,3 +8,5 @@ guava
 orange
 pineapple
 jackfruit
+peaches
+pomegrante
