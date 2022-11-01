@@ -1,0 +1,36 @@
+[command]touch .gitignore
+[Notes] gitignore file is made so that before git add. command which adds file to the staging area it see 
+        git ignore files for file to be ignored
+
+[command]git config --global user.name "nawed"
+
+[command]git config --global user.email "nawedzan2016@gmail.com"
+[Notes] this command and command above are necessary for authentication
+
+[command]git init
+[Notes] adds a .git file to the folder
+
+[command]git add .
+[Notes] brings all the file sans the file in gitignore in staging area
+
+[command]git commit -m "initial commit"
+
+[command]git status #just to see
+
+[command]ssh-keygen -t rsa -b 4096 -C "nawedzan2016@gmail.com"
+[Notes] this key generates the public rsa key pair but for now i only have to look for
+        .pub file 
+
+[command] cat <paste .pub file in here> to paste generate the ssh key
+[Notes]   once the key is generated paste it in github ->account settings->[left side]->access->ssh and gpg keys->new ssh keys
+          ->paste it there.
+            this allows the files on the folder of the computer to be put in the given repository
+
+[command] git remote set-url origin https://github.com/nawedzan/coding-folder-2.git
+[Notes] the above url is that repository's ssh url 
+
+[command] git push origin master
+[notes] with this finale line all the files are pasted on the github
+
+
+
