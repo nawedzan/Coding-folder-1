@@ -1,0 +1,18 @@
+here i will write what i learned and put reminder for tommorrow
+
+there is local repository and remote repository 
+any time a file is brought in the local repository to modify 
+it is not sure that it will get pushed to the remote repo 
+
+if you encounter this error "Updates were rejected because the remote contains work that you do not have locally"
+
+than the remote has been changed 
+
+to fix this error pull the repo in the local dev than to update the repo of the current changes
+
+than push the your local repo back in.
+
+=--------------- reminder ----------------------
+
+learn how to pull a repo from git bash to local repositroy
+what is updated updtream and topic branch

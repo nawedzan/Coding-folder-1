@@ -1,0 +1,94 @@
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git remote -v
+origin  https://github.com/nawedzan/Coding-folder-1.git (fetch)
+origin  https://github.com/nawedzan/Coding-folder-1.git (push) 
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git init
+Initialized empty Git repository in D:/Coding Folder/D.S.A/git Notes/.git/
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git add .
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git commit -m "first commit"
+[master (root-commit) 4040ff3] first commit
+ 3 files changed, 37 insertions(+)
+ create mode 100644 cheatsheet.txt
+ create mode 100644 command sheet.txt
+ create mode 100644 readme
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git remote set-url origin git@github.com:nawedzan/Coding-folder-1.git~ 
+error: No such remote 'origin'
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git add .
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git remote set-url origin git@github.com:nawedzan/Coding-folder-1.git~
+error: No such remote 'origin'
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git remote set-url origin https://github.com/nawedzan/Coding-folder-1.git
+error: No such remote 'origin'
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git remote add origin https://github.com/nawedzan/Coding-folder-1.git
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git remote -v
+origin  https://github.com/nawedzan/Coding-folder-1.git (fetch)
+origin  https://github.com/nawedzan/Coding-folder-1.git (push)
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 931 bytes | 465.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/nawedzan/Coding-folder-1/pull/new/master
+remote:
+To https://github.com/nawedzan/Coding-folder-1.git
+ * [new branch]      master -> master
+
+Nawed@DESKTOP-7KCUNCS MINGW64 /d/Coding Folder/D.S.A/git Notes (master)
+$

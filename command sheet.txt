@@ -1,0 +1,12 @@
+gitignore
+git add .
+git init 
+git status
+git commit
+git push origin master
+git remote set url origin ssh url
+git remote -v
+git config --list --show-origin
+git congig user.name
+git config user.email
+
