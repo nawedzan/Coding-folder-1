@@ -12,7 +12,21 @@ to fix this error pull the repo in the local dev than to update the repo of the 
 
 than push the your local repo back in.
 
+git status checks whether there is a repo in the folder or not , because if there is than running git init again can lead to confusiions as git is watching git
+
+git status also tells what files have been made but are not tracked by the git.
+
+-------------- working tree clean meaning ------------------------
+
+working tree clean means git is traking everything it also shows nothing to commit which means the same.
+
+----------------- Delete -----------------------
+
+to delete a folder which is already in staging area first delete it from the working repo by using "rm <filename>" command.
+but the folder is still in the staging area.
+ delete the file from the staging area by using the command "git rm <filename>.
+
 =--------------- reminder ----------------------
 
 learn how to pull a repo from git bash to local repositroy
-what is updated updtream and topic branch
+what is updated updtream and topic branch 
