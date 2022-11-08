@@ -26,6 +26,9 @@ to delete a folder which is already in staging area first delete it from the wor
 but the folder is still in the staging area.
  delete the file from the staging area by using the command "git rm <filename>.
 
+ ----------------- git log --------------------
+ to esc git log press q
+
 =--------------- reminder ----------------------
 
 learn how to pull a repo from git bash to local repositroy
