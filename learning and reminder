@@ -29,6 +29,14 @@ but the folder is still in the staging area.
  ----------------- git log --------------------
  to esc git log press q
 
+
+-------------------start . -------------------
+
+the start . command opens the entire directory in a new window.
+
+---------- code .----------------------
+
+the code . command opens a new vs -code window of the directory
 =--------------- reminder ----------------------
 
 learn how to pull a repo from git bash to local repositroy
