@@ -34,9 +34,19 @@ but the folder is still in the staging area.
 
 the start . command opens the entire directory in a new window.
 
----------- code .----------------------
+--------------------code .----------------------
 
 the code . command opens a new vs -code window of the directory
+
+------------------ code commit  --------------------
+
+keeping the code atomic means fix one problem at a time and commit those files or if you have 20 problems at once,
+than fix 1 problem at once even if it involves one file at one time and commit that one file with the commit message
+of that bug or error fixed than move on to the next problem.
+
+write commits in present tense imperative form almost like a command
+(change gatsby to catsby) not like (gatsby changed to catsby)
+
 =--------------- reminder ----------------------
 
 learn how to pull a repo from git bash to local repositroy
