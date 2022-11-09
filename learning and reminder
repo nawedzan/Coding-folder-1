@@ -47,6 +47,15 @@ of that bug or error fixed than move on to the next problem.
 write commits in present tense imperative form almost like a command
 (change gatsby to catsby) not like (gatsby changed to catsby)
 
+-------------------- how to use vim editor ----------------------
+
+when we commit something without putting a message vim editor gets opened from git bash to write in vim editor press "i" 
+below INSERT IS WRITTEN . than type your message . To escape vim editor first press "esc" to esc the writing mode, than type :wq to esc the vim editor
+
+
+------------------------- writing big commit messages ------------------------------
+
+to write big commit message 
 =--------------- reminder ----------------------
 
 learn how to pull a repo from git bash to local repositroy
